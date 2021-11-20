@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@350&display=swap');
+
+/* MIC Logo */
+img{
+    left: 0;
+    position: absolute;
+    width: 10.4%;
+    z-index: 1;
+}
+
+.nav-background{
+    width: 100%;
+    height: 100vh;
+    background-color: #0077B6;
+    background-image: linear-gradient(to bottom right,#03045E,#0077B6);
+}
+
+.nav-style{
+    background: transparent;
+    padding: 3%;
+    padding-right: 0.5%;
+}
+
+.nav-item{
+    font-family: 'Roboto Slab';
+    font-size: 1.24rem;
+    padding: 0 0.465rem;
+    text-transform: uppercase; 
+}
+
+.navbar-collapse{
+    padding-top: 0.28%;
+}
+
+.navbar-toggler{
+    margin: 0.675rem;
+    border: none;
+}
+
+@media screen and (max-width: 900px) {
+    img{
+        width: 15%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    img{
+        width: 25%;
+    }
+}
