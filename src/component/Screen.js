@@ -1,5 +1,6 @@
 import React from 'react';
-import logo from '../MIC_logo.svg';
+import logo from '../MIC_logo.png';
+import "../Nav.css"
 import {
     Routes,
     Route,
@@ -15,11 +16,11 @@ import Home from './Home';
 
 export default function Screen() {
     return (
-
-        <div>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <div className='nav-background'>
+        <img src={logo} alt="MIC logo" />
+            <nav className="navbar navbar-expand-lg navbar-dark nav-style">
             <div className="container-fluid">
-                <Link className="navbar-brand" to="#"><img style={{width:"50%"}} src={logo} alt="" /></Link>
+                <Link className="navbar-brand" to="#"></Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
                 </button>
@@ -29,22 +30,22 @@ export default function Screen() {
                     <Link className="nav-link active" aria-current="page" to="/">Home</Link>
                     </li>
                     <li className="nav-item">
-                    <Link className="nav-link" to="/about">About</Link>
+                    <Link className="nav-link active" to="/about">About</Link>
                     </li>
                     <li className="nav-item">
-                    <Link className="nav-link" to="/events">Events</Link>
+                    <Link className="nav-link active" to="/events">Events</Link>
                     </li>
                     <li className="nav-item">
-                    <Link className="nav-link" to="/ourTeam">Our Team</Link>
+                    <Link className="nav-link active" to="/ourTeam">Our Team</Link>
                     </li>
                     <li className="nav-item">
-                    <Link className="nav-link" to="/gallery">Gallery</Link>
+                    <Link className="nav-link active" to="/gallery">Gallery</Link>
                     </li>
                     <li className="nav-item">
-                    <Link className="nav-link" to="/blogs">Blogs</Link>
+                    <Link className="nav-link active" to="/blogs">Blog</Link>
                     </li>
                     <li className="nav-item">
-                    <Link className="nav-link" to="/contact">Contact</Link>
+                    <Link className="nav-link active" to="/contact">Contact</Link>
                     </li>
                 </ul>
                 </div>
