@@ -1,9 +1,11 @@
 import React from 'react'
+import Header from './Header'
+import Wave from '../wave.svg'
 
 export default function Home() {
     return (
         <div>
-            This is the Home component
+            <Header name={Wave}/>
         </div>
     )
 }

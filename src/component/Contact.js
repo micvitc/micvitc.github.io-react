@@ -1,9 +1,11 @@
 import React from 'react'
+import Wave from '../wave.svg'
+import Header from './Header'
 
 export default function Contact() {
     return (
         <div>
-            This is the Contact component
+            <Header name={Wave}/>
         </div>
     )
 }

@@ -1,9 +1,11 @@
 import React from 'react'
+import Fill from '../fill.svg'
+import Header from './Header'
 
 export default function Blogs() {
     return (
         <div>
-            This is the Blogs component
+            <Header name={Fill}/>
         </div>
     )
 }

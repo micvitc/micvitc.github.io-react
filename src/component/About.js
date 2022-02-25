@@ -1,9 +1,11 @@
 import React from 'react'
+import Header from './Header'
+import Fill from '../fill.svg'
 
 export default function About() {
     return (
         <div>
-            this is the About component
+            <Header name={Fill}/>
         </div>
     )
 }
