@@ -4,10 +4,13 @@ import logo from '../mic.svg'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import Header from './Header'
+import Wave from '../waveHome.svg'
 
 export default function Home() {
     return (
         <Container>
+            <Header name={Wave}/>
             <Row>
                 <Col>
                     <div className = "home">

@@ -16,7 +16,7 @@
     left: 0px;
     position:relative;
     margin-left: 40px;
-    margin-top: 90px;
+    margin-top: 70px;
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -33,4 +33,7 @@
 }
 .col{
     position: relative;
+}
+h2{
+    padding: 0;
 }

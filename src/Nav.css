@@ -11,8 +11,8 @@ img{
 .nav-background{
     width: 100%;
     height: 100vh;
-    background-color: #0077B6;
-    background-image: linear-gradient(to bottom right,#03045E,#0077B6);
+    /* background-color: #0077B6;
+    background-image: linear-gradient(to bottom right,#03045E,#0077B6); */
 }
 
 .nav-style{
@@ -26,6 +26,7 @@ img{
     font-size: 1.24rem;
     padding: 0 0.465rem;
     text-transform: uppercase; 
+    z-index: 1;
 }
 
 .navbar-collapse{

@@ -1,0 +1,14 @@
+<svg id="visual" viewBox="0 0 900 600" width="900" height="600"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+    <style type="text/css">
+        path{fill:url(#MyGradient)}
+    </style>
+    <defs>
+        <linearGradient id="MyGradient" x1="100%" y1="100%" x2="0%" y2="0%">
+          <stop offset="20%" stop-color="#0077B6" stop-opacity = "1"/>
+          <stop offset="100%" stop-color="#03045E" stop-opacity = "1"/>
+        </linearGradient>
+      </defs>
+    <path d="M0 254L50 240.5C100 227 200 200 300 211.5C400 223 500 273 600 287C700 301 800 279 850 268L900 257L900 0L850 0C800 0 700 0 600 0C500 0 400 0 300 0C200 0 100 0 50 0L0 0Z" fill="#0066FF" stroke-linecap="round" stroke-linejoin="miter"></path>
+</svg>
